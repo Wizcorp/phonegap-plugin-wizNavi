@@ -19,7 +19,7 @@ example:-
 
 
 
-# INSTALL (iOS):
+# INSTALL (iOS): #
 
 Project tree<br />
 
@@ -63,7 +63,7 @@ Value : WizNaviPlugin<br />
 
 
 
-# INSTALL (Android BETA!):
+# INSTALL (Android BETA!): #
 
 
 Project setup should be quite self explanatory.
@@ -227,8 +227,8 @@ Sorry that is it for now..
 <br />
 <br />
 <br />
-# EXAMPLE CODE:
-=============
+# EXAMPLE CODE\: #
+
 <br />
 <br />
 Example setup<br />
