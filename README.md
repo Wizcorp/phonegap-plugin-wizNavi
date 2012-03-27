@@ -21,36 +21,36 @@ example:-
 
 # INSTALL (iOS):
 
-Project tree
+Project tree<br />
 ```
-project
-	/ www
-		-index.html
-		/ phonegap
-			/ plugin
-				/ wizNavi
-					/ wizNavi.js		
-	/ Classes	
-	/ Plugins
-		/ WizNaviPlugin 
-			/ WizNaviPlugin.h
-			/ WizNaviPlugin.m
-	/ Resources
-		/ nav
-			/ [all images here]
-	-project.xcodeproj
+project<br />
+	/ www<br />
+		-index.html<br />
+		/ phonegap<br />
+			/ plugin<br />
+				/ wizNavi<br />
+					/ wizNavi.js<br />	
+	/ Classes<br />
+	/ Plugins<br />
+		/ WizNaviPlugin<br />
+			/ WizNaviPlugin.h<br />
+			/ WizNaviPlugin.m<br />
+	/ Resources<br />
+		/ nav<br />
+			/ [all images here]<br />
+	-project.xcodeproj<br />
 ```	
 
 
 1 ) Arrange files to structure seen above.
 
-2 ) Add to phonegap.plist in the plugins array;
-Key : WizNaviPlugin
-Type : String
-Value : WizNaviPlugin
+2 ) Add to phonegap.plist in the plugins array;<br />
+Key : WizNaviPlugin<br />
+Type : String<br />
+Value : WizNaviPlugin<br />
 
-3 ) Add <script> tag to your index.html
-<script type="text/javascript" charset="utf-8" src="phonegap/plugin/wizNavi/wizNavi.js"></script>
+3 ) Add \<script\> tag to your index.html<br />
+<script type="text/javascript" charset="utf-8" src="phonegap/plugin/wizNavi/wizNavi.js"></script><br />
 (assuming your index.html is setup like tree above)
 
 
@@ -126,31 +126,31 @@ var exampleNaviSettings = {
 ```
 
 
-// Example create
+// Example create<br />
 ```
 wizNavi.create(exampleNaviSettings, null, null);
 ```
 
 
-// Example show
+// Example show<br />
 ```
 wizNavi.show();
 ```
 
 
-// Example notify
+// Example notify<br />
 ```
 wizNavi.notify("button1",5, null, null);
 ```
 
 
-// Example hide
+// Example hide<br />
 ```
 wizNavi.hide();
 ```
 
 
-// Example set tabs
+// Example set tabs<br />
 ```
 function naviSetTabs()
 {
@@ -180,13 +180,13 @@ naviSetTabs();
 ```
 
 
-// Example enable
+// Example enable<br />
 ```
 wizNavi.enable();
 ```
 
 
-// Example disable
+// Example disable<br />
 ```
 wizNavi.disable();
 ```
