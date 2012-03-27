@@ -221,13 +221,12 @@ public static void webviewExpandForStats() {
 
 
 Sorry that is it for now..
-Better docs coming soon…
+(Better docs coming soon ..)
 
 
 
 
-
-
+<br />
 # Example Code
 
 Example setup<br />
