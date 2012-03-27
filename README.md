@@ -220,8 +220,7 @@ public static void webviewExpandForStats() {
 </pre></code>
 
 
-Sorry that is it for now
-\(Better docs coming soon \)
+Sorry that is it for now better docs for Android coming soon
 
 
 <br />
