@@ -21,7 +21,7 @@ example:-
 
 # INSTALL (iOS):
 
-Project tree (iOS)
+Project tree
 
 project
 	/ www
@@ -55,6 +55,15 @@ Value : WizNaviPlugin
 
 
 3 ) Follow example code below.
+
+
+
+
+
+
+# INSTALL (Android BETA!):
+
+Docs coming soon...
 
 
 
