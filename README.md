@@ -71,7 +71,8 @@ Docs coming soon...
 # Example Code
 
 // Example setup
-```var exampleNaviSettings = {
+```
+var exampleNaviSettings = {
                      
 	height 				: 70 ,
 	statBarHeight       : 0 ,
@@ -126,23 +127,32 @@ Docs coming soon...
 
 
 // Example create
-```wizNavi.create(exampleNaviSettings, null, null);```
+```
+wizNavi.create(exampleNaviSettings, null, null);
+```
 
 
 // Example show
-```wizNavi.show();```
+```
+wizNavi.show();
+```
 
 
 // Example notify
-```wizNavi.notify("button1",5, null, null);```
+```
+wizNavi.notify("button1",5, null, null);
+```
 
 
 // Example hide
-```wizNavi.hide();```
+```
+wizNavi.hide();
+```
 
 
 // Example set tabs
-```function naviSetTabs()
+```
+function naviSetTabs()
 {
                     
 	var tab1 = new Array ("button1",{
@@ -171,8 +181,12 @@ naviSetTabs();
 
 
 // Example enable
-```wizNavi.enable();```
+```
+wizNavi.enable();
+```
 
 
 // Example disable
-```wizNavi.disable();```
+```
+wizNavi.disable();
+```
