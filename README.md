@@ -23,23 +23,25 @@ example:-
 
 Project tree<br /><br />
 
-project<br />
-	/ www<br />
-		-index.html<br />
-		/ phonegap<br />
-			/ plugin<br />
-				/ wizNavi<br />
-					/ wizNavi.js<br />	
-	/ Classes<br />
-	/ Plugins<br />
-		/ WizNaviPlugin<br />
-			/ WizNaviPlugin.h<br />
-			/ WizNaviPlugin.m<br />
-	/ Resources<br />
-		/ nav<br />
-			/ [all images here]<br />
-	-project.xcodeproj<br />
-	
+<pre><code>
+project
+	/ www
+		-index.html
+		/ phonegap
+			/ plugin
+				/ wizNavi
+					/ wizNavi.js	
+	/ Classes
+	/ Plugins
+		/ WizNaviPlugin
+			/ WizNaviPlugin.h
+			/ WizNaviPlugin.m
+	/ Resources
+		/ nav
+			/ [all images here]
+	-project.xcodeproj
+</code></pre>
+
 
 
 1 ) Arrange files to structure seen above.
@@ -50,7 +52,7 @@ Type : String<br />
 Value : WizNaviPlugin<br />
 
 3 ) Add \<script\> tag to your index.html<br />
-<script type="text/javascript" charset="utf-8" src="phonegap/plugin/wizNavi/wizNavi.js"></script><br />
+\<script type="text/javascript" charset="utf-8" src="phonegap/plugin/wizNavi/wizNavi.js"\>\</script\><br />
 (assuming your index.html is setup like tree above)
 
 
