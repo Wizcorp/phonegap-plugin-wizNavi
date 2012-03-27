@@ -21,7 +21,7 @@ example:-
 
 # INSTALL (iOS):
 
-Project tree<br /><br />
+Project tree<br />
 
 <pre><code>
 project
@@ -72,8 +72,8 @@ Docs coming soon...
 
 # Example Code
 
-// Example setup<br />
-```
+Example setup<br />
+<pre><code>
 var exampleNaviSettings = {
                      
 	height 				: 70 ,
@@ -125,35 +125,35 @@ var exampleNaviSettings = {
 		}
 	]
 };
-```
+</code></pre>
 
 
-// Example create<br />
+Example create<br />
 ```
 wizNavi.create(exampleNaviSettings, null, null);
 ```
 
 
-// Example show<br />
+Example show<br />
 ```
 wizNavi.show();
 ```
 
 
-// Example notify<br />
+Example notify<br />
 ```
 wizNavi.notify("button1",5, null, null);
 ```
 
 
-// Example hide<br />
+Example hide<br />
 ```
 wizNavi.hide();
 ```
 
 
-// Example set tabs<br />
-```
+Example set tabs<br />
+<pre><code>
 function naviSetTabs()
 {
                     
@@ -179,16 +179,16 @@ function naviSetTabs()
 };
 
 naviSetTabs();
-```
+</code></pre>
 
 
-// Example enable<br />
+Example enable<br />
 ```
 wizNavi.enable();
 ```
 
 
-// Example disable<br />
+Example disable<br />
 ```
 wizNavi.disable();
 ```
