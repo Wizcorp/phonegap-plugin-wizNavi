@@ -224,11 +224,12 @@ Sorry that is it for now..
 (Better docs coming soon ..)
 
 
-
 <br />
-
+<br />
+<br />
 # EXAMPLE CODE:
-
+=============
+<br />
 <br />
 Example setup<br />
 <pre><code>
