@@ -11,6 +11,12 @@ phonegap-plugin-wizNavi
 
 PhoneGap plugin for building native navigation component.
 
+example:-
+
+![iPhone example](https://github.com/Wizcorp/phonegap-plugin-wizNavi/raw/master/example.jpg)
+
+
+
 
 
 # DOCS & SUPPORT :
