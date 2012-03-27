@@ -21,8 +21,8 @@ example:-
 
 # INSTALL (iOS):
 
-Project tree<br />
-```
+Project tree<br /><br />
+
 project<br />
 	/ www<br />
 		-index.html<br />
@@ -39,7 +39,7 @@ project<br />
 		/ nav<br />
 			/ [all images here]<br />
 	-project.xcodeproj<br />
-```	
+	
 
 
 1 ) Arrange files to structure seen above.
@@ -70,7 +70,7 @@ Docs coming soon...
 
 # Example Code
 
-// Example setup
+// Example setup<br />
 ```
 var exampleNaviSettings = {
                      
@@ -174,7 +174,7 @@ function naviSetTabs()
 	                      });
 	
 	wizNavi.setTabs([tab1, tab2] , null , null);
-}
+};
 
 naviSetTabs();
 ```
