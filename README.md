@@ -22,7 +22,7 @@ example:-
 # INSTALL (iOS):
 
 Project tree
-
+```
 project
 	/ www
 		-index.html
@@ -39,7 +39,7 @@ project
 		/ nav
 			/ [all images here]
 	-project.xcodeproj
-	
+```	
 
 
 1 ) Arrange files to structure seen above.
@@ -71,7 +71,7 @@ Docs coming soon...
 # Example Code
 
 // Example setup
-var exampleNaviSettings = {
+```var exampleNaviSettings = {
                      
 	height 				: 70 ,
 	statBarHeight       : 0 ,
@@ -122,32 +122,27 @@ var exampleNaviSettings = {
 		}
 	]
 };
-
+```
 
 
 // Example create
-
-wizNavi.create(exampleNaviSettings, null, null);
+```wizNavi.create(exampleNaviSettings, null, null);```
 
 
 // Example show
-
-wizNavi.show();
+```wizNavi.show();```
 
 
 // Example notify
-
-wizNavi.notify("button1",5, null, null);
+```wizNavi.notify("button1",5, null, null);```
 
 
 // Example hide
-
-wizNavi.hide();
+```wizNavi.hide();```
 
 
 // Example set tabs
-
-function naviSetTabs()
+```function naviSetTabs()
 {
                     
 	var tab1 = new Array ("button1",{
@@ -172,14 +167,12 @@ function naviSetTabs()
 }
 
 naviSetTabs();
-
+```
 
 
 // Example enable
-
-wizNavi.enable();
+```wizNavi.enable();```
 
 
 // Example disable
-
-wizNavi.disable();
+```wizNavi.disable();```
