@@ -126,18 +126,27 @@ var exampleNaviSettings = {
 
 
 // Example create
+
 wizNavi.create(exampleNaviSettings, null, null);
 
+
 // Example show
+
 wizNavi.show();
 
+
 // Example notify
+
 wizNavi.notify("button1",5, null, null);
 
+
 // Example hide
+
 wizNavi.hide();
 
+
 // Example set tabs
+
 function naviSetTabs()
 {
                     
@@ -165,8 +174,12 @@ function naviSetTabs()
 naviSetTabs();
 
 
+
 // Example enable
+
 wizNavi.enable();
 
+
 // Example disable
+
 wizNavi.disable();
