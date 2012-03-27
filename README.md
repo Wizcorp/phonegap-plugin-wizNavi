@@ -225,10 +225,11 @@ Sorry that is it for now..
 
 
 
+<br />
+
+# EXAMPLE CODE:
 
 <br />
-# EXAMPLE CODE :
-
 Example setup<br />
 <pre><code>
 var exampleNaviSettings = {
