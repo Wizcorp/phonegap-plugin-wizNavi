@@ -227,7 +227,7 @@ Sorry that is it for now..
 
 
 <br />
-# Example Code
+# EXAMPLE CODE :
 
 Example setup<br />
 <pre><code>
